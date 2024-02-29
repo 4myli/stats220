@@ -1,6 +1,6 @@
 ## STATS 220 🐱🍰⭐️
 
-Hi, my name is Amy, I am a second year University student.
+Kia ora, my name is Amy, I am a second year University student.
 * This is my repo for STATS220, 2024.
 * I have zero experience in coding so I am currently learning how to use R!
 ### What is this repo?
