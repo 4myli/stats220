@@ -1,4 +1,4 @@
-## stats220 🐱🍰⭐️
+## STATS 220 🐱🍰⭐️
 * This is my repo for STATS220, 2024.
 * I have zero experience in coding so I am currently learning how to use R!
 ### What is this repo?
