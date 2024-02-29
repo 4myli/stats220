@@ -13,6 +13,6 @@ I hope this is able to explain what this repo is!
 
 ## 🐒
 
-I really like monkeys, so here is a picture of a baby Japanese Macaque! 
+I really like monkeys, so here is a picture of a baby Japanese Macaque. I hope you like it too ☺️
 
 ![japanese baby monkey](https://live.staticflickr.com/65535/50071617591_9a40d7b388_b.jpg)
