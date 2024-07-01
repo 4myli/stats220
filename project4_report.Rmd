@@ -1,0 +1,42 @@
+---
+title: "Project 4"
+author: "Amy Li"
+subtitle: "Visualising data about videos from the YouTube channels Vox and The Dodo"
+output:
+  html_document:
+    code_folding: hide
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, message=FALSE, warning=FALSE, error=FALSE)
+```
+
+```{css echo = FALSE}
+body {font-weight: 400 ; background-color: #c7eae4; color: #000000; font-family: Avenir Next Condensed; font-size: 20px}
+```
+
+## Introduction
+
+The two Youtube channels that I chose were two that would constantly pop up in my recommended, because I would watch videos from them frequently. I felt that although the type of content on their channels were different, with Vox's videos being infographics and education vs The Dodo just being wholesome animal moments, that they would have a lot of differences in data, particularly engagment and video lengths. However, I quickly realised that they have many similarities, and wanted to compare the differences in the lengths of different aspects, including title and video lengths.
+
+I decided to focus on these variables as I thought it would be interesting to explore these lengths, and I wanted to be able to use different plots as well. Therefore I used geom_jitter, geom_boxplot, and geom_col to create my different graphs. I used geom_jitter to plot the number of characters in each video title, as there were many different values for them that I wasn't able to plot in a simple bar graph. I used geom_col for my graph of the average duration of videos from each channel, as it was more straightforwards and was only 2 values. Lastly, I used geom_boxplot to plot the range of duration of videos published. I was originally to make a boxplot of the engagement data such as number of comments, however I found that there was a significant outlier on a Vox video that made the data unreadable.
+
+## Dynamic data story
+
+![](data_story.gif)
+
+I tried to make this creative through creating my theme of graphs and using the theme in all the graphs. I was able to create this theme through using theme() and then setting the background and panel colours and adding margins. I felt that this gave my graphs a much better look than just simply using the other variables such as just colour=, and it looked more cohesive in the colour scheme. 
+
+## Learning reflection
+
+The most important idea I learnt from this module is creating visualisations that look good and cohesive as well as relay accurate data. I loved how I learnt about how to change the aesthetics of the graphs I created through creating a theme and using it, as well as using margins to create a less crowded feel of the graphs. Another thing I am super excited about is that I can now create all sorts of different graphs such as jitter plots and boxplots, which I previously couldn't do. Next, I am excited to learn more about creating nice looking reports and maximising my CSS usage within html reports. 
+
+## Appendix
+
+```{r file='visualisations.R', eval=FALSE, echo=TRUE}
+
+```
+
+```{r file='data_story.R', eval=FALSE, echo=TRUE}
+
+```
+
